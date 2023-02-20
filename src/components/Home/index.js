@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import LogoTitle from '../../assets/images/logo-s.png'
 import { useEffect, useState } from 'react'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters' 
 import Logo from './Logo'
 
 const Home = () => {
@@ -48,7 +48,7 @@ const Home = () => {
           
           <AnimatedLetters letterClass={letterClass}
             strArray={jobArray}
-            idx={22} />  
+            idx={22} />   
         </h1>
         <h2>Web | Mobile | Desktop Solutions.</h2>
         <Link to="/contact" className="flat-button">
